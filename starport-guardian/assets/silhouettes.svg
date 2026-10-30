@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="768" viewBox="0 0 768 384">
+<title>Starport Guardian — authored orbital machinery atlas</title>
+<desc>Six allied platforms; nine hostile hulls; elite, boss and hostile-bolt trims. Original vector artwork, no raster texture.</desc>
+<defs>
+ <linearGradient id="alloy" x2=".7" y2="1"><stop stop-color="#426775"/><stop offset=".4" stop-color="#203b4a"/><stop offset="1" stop-color="#09131f"/></linearGradient>
+ <linearGradient id="hostile" x2=".7" y2="1"><stop stop-color="#794451"/><stop offset=".38" stop-color="#392637"/><stop offset="1" stop-color="#110f1e"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#efffff"/><stop offset=".4" stop-color="#77f3e9"/><stop offset="1" stop-color="#147b9a"/></linearGradient>
+ <linearGradient id="reactor" x2="1" y2="1"><stop stop-color="#fff4c9"/><stop offset=".4" stop-color="#ffad76"/><stop offset="1" stop-color="#f04c8d"/></linearGradient>
+</defs>
+<!-- Well: open orbital cradle. The center stays transparent for the photon disk. -->
+<g transform="translate(64 64)" fill="url(#alloy)" stroke="#72c6cf" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M-42-13 -34-27 -24-29 -28-17 -29-8 -40-5Z M42-13 34-27 24-29 28-17 29-8 40-5Z M-42 13 -34 27 -24 29 -28 17 -29 8 -40 5Z M42 13 34 27 24 29 28 17 29 8 40 5Z"/>
+ <path d="M-25-30Q0-47 25-30 M-25 30Q0 47 25 30" fill="none" stroke="#396578"/>
+ <path d="M-37-17 -33-23 M37-17 33-23 M-37 17 -33 23 M37 17 33 23" stroke="#c6fff7" stroke-width="3"/>
+ <path d="M-4-40H4 M-4 40H4" stroke="#91f5e6"/>
+</g>
+<!-- Pulse: forked rail barrel, shoulder plates and narrow rear heat sink. -->
+<g transform="translate(192 64)" stroke="#72c6cf" stroke-width="1.8" stroke-linejoin="round">
+ <path fill="url(#alloy)" d="M-28-10 -18-22 -12-20 -12-42 -5-46 -5-7 5-7 5-46 12-42 12-20 18-22 28-10 24 22 12 33 -12 33 -24 22Z"/>
+ <path fill="#0a1721" d="M-17-6 -9-12 9-12 17-6 14 20 0 27 -14 20Z"/>
+ <path fill="url(#glass)" d="M-5-5H5V15L0 20 -5 15Z" stroke="none"/>
+ <path d="M-22-4 -20 12 M22-4 20 12 M-9 29 -9 35 M0 30V38 M9 29V35" stroke="#a5eee7"/>
+ <path d="M-8-36V-17 M8-36V-17" stroke="#d5fffa" stroke-width="2.8"/>
+</g>
+<!-- Mortar: broad siege trunnions and recessed launch chamber. -->
+<g transform="translate(320 64)" stroke="#78b6bf" stroke-width="1.8" stroke-linejoin="round">
+ <path fill="url(#alloy)" d="M-34-19 -19-32 19-32 34-19 34 22 17 35 -17 35 -34 22Z"/>
+ <path fill="#0a1620" d="M-19-25 0-37 19-25 23 9 12 24 -12 24 -23 9Z"/>
+ <ellipse cy="-7" rx="14" ry="19" fill="#06121d" stroke="#9af3e5" stroke-width="4"/>
+ <ellipse cy="-10" rx="7" ry="10" fill="url(#glass)" stroke="none"/>
+ <path d="M-29-9V14 M29-9V14 M-18 28H-7 M7 28H18" stroke="#9bf0db" stroke-width="3"/>
+ <path d="M-21-24 -27-17 M21-24 27-17" stroke="#d0ece8"/>
+</g>
+<!-- Prism: split diamond resonator with a luminous inset crystal. -->
+<g transform="translate(448 64)" stroke="#77d6d3" stroke-width="1.8" stroke-linejoin="round">
+ <path fill="url(#alloy)" d="M0-48 14-26 10-15 27 0 12 29 0 42 -12 29 -27 0 -10-15 -14-26Z"/>
+ <path fill="#0a1423" d="M0-27 15 0 0 27 -15 0Z"/>
+ <path fill="url(#glass)" d="M0-22 7 0 0 19 -7 0Z"/>
+ <path d="M0-22V19 M-21-1 -13 21 M21-1 13 21" stroke="#d9fffc"/>
+ <path d="M-29 4 -35 15 -24 29 M29 4 35 15 24 29" fill="none" stroke="#4e899d"/>
+</g>
+<!-- Arc: two separated induction claws and a central capacitor. -->
+<g transform="translate(576 64)" stroke="#80dcd6" stroke-width="1.8" stroke-linejoin="round">
+ <path fill="url(#alloy)" d="M-32-29 -18-39 -20-15 -12-4 -16 18 -29 12 -36-5Z M32-29 18-39 20-15 12-4 16 18 29 12 36-5Z M-13 10 13 10 21 27 10 37 -10 37 -21 27Z"/>
+ <path d="M-26-28 -28-8 -20 3 M26-28 28-8 20 3" fill="none" stroke="#c5fff2" stroke-width="3"/>
+ <circle cy="4" r="11" fill="#0a1925"/><circle cy="4" r="5" fill="url(#glass)" stroke="none"/>
+ <path d="M-9 23H9 M-6 29H6" stroke="#8bd8cd"/>
+ <path d="M-18-9 -6-15 0-3 7-16 18-10" fill="none" stroke="#59a7b7"/>
+</g>
+<!-- Relay: antenna crown, open dish and three radial supports. -->
+<g transform="translate(704 64)" stroke="#7ecfd3" stroke-width="1.8" stroke-linejoin="round">
+ <path fill="url(#alloy)" d="M-9-25 -6-42 6-42 9-25 24-12 37 8 30 19 14 12 10 27 0 36 -10 27 -14 12 -30 19 -37 8 -24-12Z"/>
+ <path d="M-25-9Q0 29 25-9 M-31-16Q0 36 31-16" fill="none" stroke="#a1f5e6" stroke-width="3"/>
+ <path fill="url(#glass)" d="M0-26 9-10 0 4 -9-10Z"/>
+ <path d="M0-39V-29 M-26 11 -31 13 M26 11 31 13 M-5 24H5" stroke="#d5fff4"/>
+</g>
+<!-- Hostiles point right. Scout / Skimmer / Bulwark / Splitter / Shard / Warden. -->
+<g transform="translate(64 192)" fill="url(#hostile)" stroke="#f28e93" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M44 0 5-23 -30-25 -19-9 -38 0 -19 9 -30 25 5 23Z"/>
+ <path d="M29 0 0-10 -15 0 0 10Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-20-19 3-18 M-20 19 3 18 M-31-4V4" stroke="#ffbd9b" stroke-width="3"/>
+ <path d="M4-10 4 10" stroke="#452437"/>
+</g>
+<g transform="translate(192 192)" fill="url(#hostile)" stroke="#ffc18a" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M46 0 -22-17 -37-40 -29-6 -7 0 -29 6 -37 40 -22 17Z"/>
+ <path d="M31 0 -10-5 -4 0 -10 5Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-33-30 -25-14 -14-11 M-33 30 -25 14 -14 11" fill="none" stroke="#ffe3b5" stroke-width="3"/>
+</g>
+<g transform="translate(320 192)" fill="url(#hostile)" stroke="#dfa1aa" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M37-22 47-10 47 10 37 22 20 32 -23 32 -38 18 -38-18 -23-32 20-32Z"/>
+ <path d="M23-25 33-18 33 18 23 25 17 10 17-10Z" fill="#b0747d"/>
+ <path d="M-20-21 6-21 13-9 13 9 6 21 -20 21 -27 10 -27-10Z" fill="#171725"/>
+ <path d="M-16-8H7V8H-16Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-26-26 -7-26 M-26 26 -7 26 M40-9V9" stroke="#ffd0b6" stroke-width="3"/>
+</g>
+<g transform="translate(448 192)" fill="url(#hostile)" stroke="#f69dcd" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M34-14 12-34 -24-34 -32-15 -10-6 10-6Z M34 14 12 34 -24 34 -32 15 -10 6 10 6Z"/>
+ <path d="M40 0 10-12 -7-10 -16 0 -7 10 10 12Z" fill="#442338"/>
+ <path d="M17 0 0-5 -5 0 0 5Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-22-27 8-27 18-18 M-22 27 8 27 18 18" fill="none" stroke="#ffc6df" stroke-width="3"/>
+ <path d="M-28-10 -36 0 -28 10" fill="none"/>
+</g>
+<g transform="translate(576 192)" fill="url(#hostile)" stroke="#f99dca" stroke-width="2" stroke-linejoin="round">
+ <path d="M40 0 -25-24 -12-3 -30 16 -3 14Z"/>
+ <path d="M22 0 -8-9 -2 3Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-18-17 -12-11 M-21 12 -9 10" stroke="#ffe0d5" stroke-width="3"/>
+</g>
+<g transform="translate(704 192)" fill="url(#hostile)" stroke="#f7a0c7" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M39-16 39 16 19 36 -16 36 -38 14 -38-14 -16-36 19-36Z"/>
+ <path d="M25-11 25 11 11 24 -11 24 -25 11 -25-11 -11-24 11-24Z" fill="#131526" stroke="#ad7ca6"/>
+ <path d="M0-16 15 0 0 16 -15 0Z" fill="url(#reactor)"/>
+ <path d="M-26-24 -15-29 13-29 M-26 24 -15 29 13 29 M32-12V12" fill="none" stroke="#ffd4e4" stroke-width="3"/>
+ <path d="M-43 0H-30 M20 0H44"/>
+</g>
+<!-- Siege: paired launch rails / Nullifier: broken toroid / Harvester: armored capital spindle. -->
+<g transform="translate(64 320)" fill="url(#hostile)" stroke="#ffae76" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M-31-32 23-32 35-23 15-14 -22-14 -29 0 -22 14 15 14 35 23 23 32 -31 32 -41 16 -41-16Z"/>
+ <path d="M-13-9 43-9 49-4 49 4 43 9 -13 9 -23 0Z" fill="#241b29"/>
+ <path d="M-5-3H43V3H-5Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-25-25H15 M-25 25H15" stroke="#ffe0b3" stroke-width="3"/>
+ <path d="M-34-10V10 M-18-9V9" stroke="#b57872"/>
+</g>
+<g transform="translate(192 320)" fill="url(#hostile)" stroke="#f48cde" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M25-31Q-5-48-31-23Q-50 0-31 23Q-5 48 25 31L15 20Q-4 29-19 14Q-30 0-19-14Q-4-29 15-20Z"/>
+ <path d="M-6-14 13-14 32 0 13 14 -6 14 -17 0Z" fill="#191624"/>
+ <path d="M-1-7 12-7 21 0 12 7 -1 7Z" fill="url(#reactor)" stroke="none"/>
+ <path d="M-35-7V7 M-20-29 -9-33 M-20 29 -9 33 M28-24 38-18 M28 24 38 18" stroke="#ffd2f4" stroke-width="3"/>
+</g>
+<g transform="translate(320 320)" fill="url(#hostile)" stroke="#ef8196" stroke-width="1.5" stroke-linejoin="round">
+ <path d="M54 0 35-17 27-37 4-45 -19-40 -25-28 -44-27 -51-12 -45 0 -51 12 -44 27 -25 28 -19 40 4 45 27 37 35 17Z"/>
+ <path d="M32-12 24-30 4-35 -17-30 -19-15 -34-10 -34 10 -19 15 -17 30 4 35 24 30 32 12 43 0Z" fill="#181723"/>
+ <path d="M29-29 11-38 -13-34 -16-26 M29 29 11 38 -13 34 -16 26 M-44-18 -36-20 M-44 18 -36 20" fill="none" stroke="#ffbf9a" stroke-width="3"/>
+ <circle r="17" fill="#0a0d19" stroke="#f5a6ad" stroke-width="3"/>
+ <circle r="9" fill="url(#reactor)" stroke="none"/>
+ <path d="M20-7 39 0 20 7 M-10-21 4-25 17-19 M-10 21 4 25 17 19" fill="none" stroke="#dd7294"/>
+ <path d="M-30-5H-23 M-30 5H-23 M-8-9 0-14 8-9 M-8 9 0 14 8 9" fill="none" stroke="#ffe4c8"/>
+</g>
+<!-- Overlay trims: elite armor chevrons; capital warning frame; hostile bolt. -->
+<g transform="translate(448 320)" fill="#482936" stroke="#ffd3a0" stroke-width="2">
+ <path d="M-46-18 -40-31 -26-38 -28-29 -35-23Z M46-18 40-31 26-38 28-29 35-23Z M-46 18 -40 31 -26 38 -28 29 -35 23Z M46 18 40 31 26 38 28 29 35 23Z"/>
+ <path d="M-6-44 0-49 6-44 0-39Z" fill="#fff0bd"/>
+</g>
+<g transform="translate(576 320)" fill="none" stroke="#ff797e" stroke-width="2">
+ <path d="M-49-25 -40-42 -21-49 M49-25 40-42 21-49 M-49 25 -40 42 -21 49 M49 25 40 42 21 49"/>
+ <path d="M-9-51 0-57 9-51 M-9 51 0 57 9 51" stroke="#ffe0b7"/>
+</g>
+<g transform="translate(704 320)" stroke="#ffd9a4" stroke-width="2">
+ <path d="M43 0 -12-15 -32-9 -24 0 -32 9 -12 15Z" fill="url(#reactor)"/>
+ <path d="M25 0 -10-4 -10 4Z" fill="#fffbe8" stroke="none"/>
+</g>
+</svg>
